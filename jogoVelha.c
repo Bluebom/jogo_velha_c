@@ -1,9 +1,9 @@
 #include<stdio.h>;
 #include<stdlib.h>;
 #include<locale.h>;
+/* SEPARANDO AS LOGICAS EM PEQUENAS FUNÇÕES, FAZENDO COMENTÁRIOS E CRIANDO VARIAVEIS COERENTES QUERO TRAZER O MÁXIMO DE BOAS PRÁTICAS PARA ESSE PROJETO */
 #include "likemethods.h";
 
-/* SEPARANDO AS LOGICAS EM PEQUENAS FUNÇÕES, FAZENDO COMENTÁRIOS E CRIANDO VARIAVEIS COERENTES QUERO TRAZER O MÁXIMO DE BOAS PRÁTICAS PARA ESSE PROJETO */
 
 // a ideia aqui é verifica se a posição que o usuário escolheu está vazia
 int isVoidPosition(int x, int y){
