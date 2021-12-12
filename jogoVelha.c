@@ -81,9 +81,9 @@ void play() {
     }while(won == 0 && max < 9);
     if(won !=  0){
         if(order != 1){
-            printf("O jogador %s ganhou o jogo\n", playerOne);
+            printf("O vencedor foi %s", playerOne);
         } else {
-            printf("O jogador %s ganhou o jogo\n", playerTwo);
+            printf("O vencedor foi %s", playerTwo);
         }
     } else {
         printf("\nParece que deu empate...");

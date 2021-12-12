@@ -45,9 +45,9 @@ int lineWin(){
 // a ideia aqui é verificar se a posição das colunas dá a algum dos jogadores a vitória
 int columnWin(){
     int i, j, same = 1;
-    for(i = 0; i < 2; i++){
-        for(j = 0; j < 3; j ++){
-            if(isValidChar(game[i][j] && game[i][j] == game[i+1][j])) 
+    for(j = 0; j < 3; j++){
+        for(i = 0; i < 2; i++){
+            if(isValidChar(game[i][j]) && game[i][j] == game[i+1][j]) 
                 same++;
         }
         if(same == 3)
